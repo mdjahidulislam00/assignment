@@ -18,6 +18,7 @@ function budgetCalculator(watch, mobile, laptop){
 
 }
 
+
 //hotelCost function
 function hotelCost(day){
   if(day == 0 || day < 0){
