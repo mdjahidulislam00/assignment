@@ -1,3 +1,5 @@
+ 
+ //kilometerToMeter function
  function kilometerToMeter (num){
      if (num < 0){
          return "Input value is not Correct";
@@ -7,6 +9,7 @@
      }
  }
 
+ //budgetCalculator function
 function budgetCalculator(watch, mobile, laptop){
   var watchPrice = watch*50;
   var mobilePrice = mobile*100;
@@ -15,7 +18,7 @@ function budgetCalculator(watch, mobile, laptop){
 
 }
 
-
+//hotelCost function
 function hotelCost(day){
   if(day == 0 || day < 0){
     return "--ERROR-- plese give right value";
